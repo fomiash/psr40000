@@ -41,9 +41,7 @@ class Baz
 ```php
 <?php
 
-use Fomiash\Psr40000\FooInterface;
-use Fomiash\Psr40000\BarInterface;
-use Fomiash\Psr40000\BazInterface;
+use Fomiash\Psr40000\{FooInterface, BarInterface, BazInterface};
 
 class Foo implements FooInterface
 {
@@ -91,9 +89,7 @@ class Baz
 ```php
 <?php
 
-use Fomiash\Psr40000\FooInterface;
-use Fomiash\Psr40000\BarInterface;
-use Fomiash\Psr40000\BazInterface;
+use Fomiash\Psr40000\{FooInterface, BarInterface, BazInterface};
 
 class Foo implements FooInterface
 {
