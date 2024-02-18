@@ -1,0 +1,22 @@
+{
+    "name": "fomiash/psr40000",
+    "description": "PSR 40.000 — galactic coding standard for PHP ",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["psr", "php"],
+    "authors": [
+        {
+            "name": "Foma Tuturov",
+            "email": "fomiash@yandex.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fomiash\\Psr40000\\": "/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev"
+}
